@@ -1,0 +1,73 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "toc_visible": true,
+      "authorship_tag": "ABX9TyMN4orTxj0OK4m9kOvfuklE",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/manoj-chavan-13/REPORT/blob/main/tempipynb\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "id": "Hr6H0Cv_RpGR"
+      },
+      "outputs": [],
+      "source": [
+        "# prompt: write code for saying hello in decoration visuals\n",
+        "\n",
+        "def hello_decoration():\n",
+        "  \"\"\"Prints \"Hello\" with a decorative border.\"\"\"\n",
+        "\n",
+        "  # Define the border characters\n",
+        "  border_char = \"*\"\n",
+        "  border_width = 20\n",
+        "\n",
+        "  # Calculate the padding needed\n",
+        "  padding = (border_width - 6) // 2  # 6 for the length of \"Hello\"\n",
+        "\n",
+        "  # Print the top border\n",
+        "  print(border_char * border_width)\n",
+        "\n",
+        "  # Print the \"Hello\" with padding\n",
+        "  print(border_char + \" \" * padding + \"Hello\" + \" \" * padding + border_char)\n",
+        "\n",
+        "  # Print the bottom border\n",
+        "  print(border_char * border_width)\n",
+        "\n",
+        "\n",
+        "hello_decoration()"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "**Prints \"Hello\" with a decorative border**"
+      ],
+      "metadata": {
+        "id": "fSwgSL2tSFat"
+      }
+    }
+  ]
+}
